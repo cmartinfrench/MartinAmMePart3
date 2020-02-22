@@ -1,0 +1,29 @@
+p {
+    background-color: blue;
+    color: white;
+    position: sticky;
+    
+}
+div {color: brown;
+    background-color: cornsilk;
+    width: 50%;
+    height: 88px;
+}
+ul {background-color: magenta;
+    color: maroon;
+}
+li {color: darkblue;
+    background-color: darkgray;
+
+}
+h1 {font-size: 3em;
+    background-color: black;
+    color: white;
+}
+h2 {font: 500;
+    font-family: cursive;
+    color: red;}
+h3 {font-family: fantasy;
+    color: royalblue;
+    background-color: salmon;
+}

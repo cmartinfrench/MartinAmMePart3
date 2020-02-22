@@ -1,0 +1,35 @@
+h1 {
+    color: magenta;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace, cursive;
+    color: rosybrown;
+}
+
+#home-title {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: steelblue;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid brown;
+    text-align: center;
+}
+
+.green {
+    background-color: purple;
+}
+
+.big {
+    widows: 300px;
+    height: 300px;
+}
+
+.big > p {
+    color: sienna;
+
+}
