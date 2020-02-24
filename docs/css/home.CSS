@@ -2,6 +2,7 @@ body {
     background-color: midnightblue;
 }
 p {
+    font-family: 'Courier New', Courier, monospace;
     background-color: teal;
     color: white;
     width: 300px;
@@ -11,18 +12,20 @@ p {
     text-align: center;
 }
 p1 {background-color: teal;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
     width: 300px;
     border: 15px solid grey;
     padding: 50px;
     margin: 20px;
     text-align: center;
-    position: fixed; top: 0; left: 475;
+    position: fixed; top: 0; right: 100;
 
 }
 div {color: white;
+    font-family: 'Courier New', Courier, monospace;
     background-color: teal;
-    width: 300px;
+    width: 50%;
     border: 15px solid grey;
     padding: 50px;
     margin: 20px;
@@ -34,6 +37,7 @@ ul {background-color: grey;
     
 }
 li {color: white;
+    font-style: italic;
     background-color: teal;
     width: 300px;
     border: 15px;
@@ -42,6 +46,11 @@ li {color: white;
     
 
 }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 h1 {font-size: 3em;
     background-color: black;
     color: white;
