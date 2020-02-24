@@ -1,24 +1,51 @@
-p {
-    background-color: blue;
-    color: white;
-    position: sticky;
-    
+body {
+    background-color: midnightblue;
 }
-div {color: brown;
-    background-color: cornsilk;
-    width: 50%;
-    height: 88px;
+p {
+    background-color: teal;
+    color: white;
+    width: 300px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+}
+p1 {background-color: teal;
+    color: white;
+    width: 300px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    position: fixed; top: 0; left: 475;
+
+}
+div {color: white;
+    background-color: teal;
+    width: 300px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
 }
 ul {background-color: grey;
+   
+    
     
 }
-li {color: darkblue;
-    background-color: darkgray;
+li {color: white;
+    background-color: teal;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    
 
 }
 h1 {font-size: 3em;
     background-color: black;
     color: white;
+    text-align: center;
 }
 h2 {font: 500;
     font-family: cursive;
