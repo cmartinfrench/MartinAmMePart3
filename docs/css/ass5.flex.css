@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#cover {
+   
+    width: 80%;
+    height: 80%;
+    background-color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-spacing: 2em;
+    align-items: center;
+    
+    
+
+}
+
+.box {
+    text-align: center;
+    width: 15%;
+    height: 1em;
+    color: indigo;
+    background-color: lightblue;
+    margin: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+
+
+}
