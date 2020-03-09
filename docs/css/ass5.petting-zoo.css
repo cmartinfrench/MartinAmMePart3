@@ -1,0 +1,64 @@
+body {
+    background-color: thistle;
+}
+div {
+    display: block;
+
+    height: 20px;
+    width: 20px;
+}
+
+.tikka {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+   animation-name: tikka;
+   animation-play-state: running;
+   animation-direction: normal;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+
+}
+@keyframes tikka {
+    0%   {margin-left:0px; margin-top:0px;}
+    15%  {margin-left: 100px;}
+    25%  {margin-left:800px; margin-top:250px;}
+    50%  {margin-left:200px; margin-top:900px;}
+    75%  {margin-left:25px; margin-top:200px;}
+    100% {margin-left:0px; margin-top:0px;}
+}
+
+.ricki {    
+position: absolute;
+    left: 0px;
+top: 0px;
+animation-name: tikka;
+animation-delay: 2s;
+animation-play-state: running;
+animation-direction: normal;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+
+}
+@keyframes ricki {
+    0%   {margin-left:0px; margin-top:0px;}
+    15%  {margin-left: 100px;}
+    25%  {margin-left:800px; margin-top:250px;}
+    50%  {margin-left:200px; margin-top:900px;}
+    75%  {margin-left:25px; margin-top:200px;}
+    100% {margin-left:0px; margin-top:0px;}
+}
+.ricki2 {    
+    position: absolute;
+        left: 0px;
+    top: 0px;
+    animation-name: tikka;
+    animation-delay: 4s;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
