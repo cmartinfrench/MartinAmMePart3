@@ -1,0 +1,42 @@
+#cover {
+    background-color: lightslategray;
+    height: 400px;
+    width: 250px;
+    display: block;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.line {
+    display: inline-flex;
+    height: 20%;
+    width: 80%;
+    margin: 10px;
+    margin: 10px;
+    background-color: crimson;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.box {
+    height: 20%;
+    width: 10%;
+    background-color: mediumaquamarine;
+    margin: 10px;
+    flex: content;
+    flex-direction: row;
+    transition: color 1s;
+}
+.box:hover {
+    background-color: darkgoldenrod;
+}
