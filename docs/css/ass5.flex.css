@@ -23,9 +23,9 @@ body {
 
 .box {
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     width: 15%;
-    height: 1em;
+    height: 10%;
     color: indigo;
     background-color: lightblue;
     margin: 15px;
