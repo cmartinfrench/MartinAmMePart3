@@ -7,11 +7,17 @@ div {
     height: 20px;
     width: 20px;
 }
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+
+}
 
 .tikka {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 30px;
    animation-name: tikka;
    animation-play-state: running;
    animation-direction: normal;
@@ -21,18 +27,18 @@ div {
 
 }
 @keyframes tikka {
-    0%   {margin-left:0px; margin-top:0px;}
+    0%   {margin-left:0px; margin-top:30px;}
     15%  {margin-left: 100px;}
     25%  {margin-left:800px; margin-top:250px;}
     50%  {margin-left:200px; margin-top:900px;}
     75%  {margin-left:25px; margin-top:200px;}
-    100% {margin-left:0px; margin-top:0px;}
+    100% {margin-left:0px; margin-top:30px;}
 }
 
 .ricki {    
 position: absolute;
     left: 0px;
-top: 0px;
+top: 30px;
 animation-name: tikka;
 animation-delay: 2s;
 animation-play-state: running;
@@ -43,17 +49,17 @@ animation-timing-function: ease-in-out;
 
 }
 @keyframes ricki {
-    0%   {margin-left:0px; margin-top:0px;}
-    15%  {margin-left: 100px;}
+    0%   {margin-left:0px; margin-top:30px;}
+    15%  {margin-left: 100px;margin-top: 30px}
     25%  {margin-left:800px; margin-top:250px;}
     50%  {margin-left:200px; margin-top:900px;}
     75%  {margin-left:25px; margin-top:200px;}
-    100% {margin-left:0px; margin-top:0px;}
+    100% {margin-left:0px; margin-top:30px;}
 }
 .ricki2 {    
     position: absolute;
         left: 0px;
-    top: 0px;
+    top: 30px;
     animation-name: tikka;
     animation-delay: 4s;
     animation-play-state: running;
