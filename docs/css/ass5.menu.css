@@ -1,0 +1,40 @@
+body {
+    background-color: darkblue;
+    text-align: center;
+    
+}
+p {
+    background-color: grey;
+    border-radius: 5px;
+    width: fit-content;
+    border: lightseagreen;
+    font-family: cursive;
+    text-align: center;
+    
+    
+
+}
+
+#cover {
+    width: 90%;
+    height: fit-content;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+
+}
+.box {
+    background-color: hotpink;
+    margin: 5px;
+    border: lightblue;
+    border-width: 4px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
