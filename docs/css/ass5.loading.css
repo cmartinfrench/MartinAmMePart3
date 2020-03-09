@@ -1,0 +1,22 @@
+
+#cover {
+
+    background-color: black;
+    height: 20px;
+    width: 400px;
+
+}
+
+.box {
+    height: 15px;
+    width: 10px;
+    background-color: tomato;
+    transition: 8s;
+    transition-timing-function: ease;
+    transition-property: all;
+    
+}
+.box:hover{
+
+    width: 400px;
+}
