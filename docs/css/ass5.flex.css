@@ -1,6 +1,6 @@
 body {
     background-color: grey;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
