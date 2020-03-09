@@ -16,9 +16,17 @@ body {
     flex-direction: column;
     border-spacing: 2em;
     align-items: center;
-    
-    
-
+}
+#cover2 {
+   
+    width: 80%;
+    height: 80%;
+    background-color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-spacing: 2em;
+    align-items: center;
 }
 
 .box {
