@@ -1,0 +1,30 @@
+body {
+    background-color: darkblue;}
+    
+
+.titlebox {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: 300px;
+    border: 15px solid grey;
+    padding: 50px;
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+#title {
+    font-size: 5em;
+  
+    margin: auto;}
+#subtitle {
+    font-size: small;
+   
+    margin: auto;
+}
+
+#list {
+    
+}
