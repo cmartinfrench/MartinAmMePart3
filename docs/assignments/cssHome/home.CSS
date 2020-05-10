@@ -6,19 +6,23 @@ body {
     background-color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    width: 300px;
-    border: 15px solid grey;
+    width: 35%;
+    border: 15px ridge grey;
     padding: 50px;
     margin: 20px;
     text-align: center;
     margin: auto;
 }
+.block {
+    height: 100px;
+}
 
 
 #title {
-    font-size: 5em;
-  
-    margin: auto;}
+    font-size: 200%;
+    margin: auto;
+}
+
 #subtitle {
     font-size: small;
    
@@ -26,5 +30,27 @@ body {
 }
 
 #list {
-    
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+.skin {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    width: 25%;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    border: 10px ridge grey;
+    padding: 25px;
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap-reverse;
+
+}
+#link {
+    padding: 10px;
+    border: 5px ridge grey;
 }
