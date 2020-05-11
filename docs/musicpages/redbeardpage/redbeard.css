@@ -1,0 +1,61 @@
+body {
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .boxer {
+    background-color: darkslategray;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: initial;
+    margin: 30px;
+    border-radius: 2em;
+     
+}
+
+.header {
+    display: inline-block;
+    margin: 20px;
+    font-family: fantasy;
+    
+}
+
+#titlebox {
+  display: inline-block;
+  border-radius: 2em;
+  width: 180px;
+  height: 120px;
+
+}
+
+#title{
+    font-size: x-large;
+
+}
+
+
+.songbox {
+    display: inline-block;
+    margin: 20px;
+    border: 10px ridge grey;
+    font-family: fantasy;
+    transition: background-color 2s;
+  
+}
+
+.songbox:hover {
+    background-color: lightcoral;
+}
